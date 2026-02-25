@@ -1,14 +1,4 @@
-# 🎨 HTML & CSS Mini Components
-
-A frontend playground for creating clean, responsive HTML and CSS components, landing pages, and UI elements. This repository tracks my progress and showcases my pure HTML/CSS skills.
-
----
-
-## 🚀 Projects Showcase
-
-Here is a visual overview of the components and landing pages in this repository:
-
-### 1. Avatar Landing Page
+## 🚀  Avatar Landing Page
 A cinematic landing page inspired by the Avatar movie, featuring background gradients, hover transitions, and flexbox layout.
 
 
