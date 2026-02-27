@@ -14,7 +14,7 @@
 ## 🎬 Live Demo
 
 <p align="center">
-  <!-- 👇 حط لينك الفيديو هنا -->
+  
   <a href="https://youtu.be/5B-ZijtG1jA" target="_blank">
     <img src="https://img.shields.io/badge/▶%20Watch%20Full%20Demo-ff0000?style=for-the-badge&logo=youtube&logoColor=white">
   </a>
@@ -22,14 +22,6 @@
 
 ---
 
-## 🌟 Project Preview
-
-<p align="center">
-  <!-- حط صورة Screenshot هنا -->
-  <img src="home_bg.jpeg" width="90%" />
-</p>
-
----
 
 ## ⚡ Features
 
