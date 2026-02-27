@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(home_bg.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;  
+width: 100%;  
+height: 1500px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header nav .logo{
+    width: 200px;
+    height: 200px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header .hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 15%;
+}
+header .hero-content h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+header .hero-content span{
+    color: #fbff00;
+}
+header .hero-content p{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+header .hero-content button{
+    background-color:transparent;
+    padding: 20px 40px;
+    font-size: 60px;
+    font-weight: bold;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+}
+header .hero-content button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+#about{
+    margin-bottom: 50px;
+}
+
+#about .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family:  Verdana, sans-serif;
+}
+#about .text h2 {
+font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;    
+  font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+    color: #e98d1d;
+}
+#about .text p{
+    font-size: 30px;
+    margin-bottom: 40px;
+    width: 50%;
+    text-align: center;
+    color: #785427;
+}
+
+#about .learnmore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+}
+#about .learnmore .explain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#about .learnmore p{
+    
+    font-size: 30px;
+    font-weight: bold;
+   width: 700px;
+   letter-spacing: 2px;
+    
+}
+
+#about .learnmore div img {
+    
+height: 600px;
+width: 800px;
+}
+
+#about .learnmore button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+#about .learnmore button{
+    background-color:transparent;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid rgb(17, 6, 6);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+#offers{
+    background-image: url(offer-background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%; 
+padding: 10px;   
+
+}
+#offers .offer-cards img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+#offers h2{
+    font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;    
+  font-size: 100px;
+    margin-top: 50px;
+font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+    color: #e98d1d;
+    text-align: center;
+    margin-bottom: 40px;
+} 
+
+#offers .poffer{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    margin-bottom: 3px;
+    font-size: 40px;
+    color: #785427;
+}
+
+
+#offers .offer-cards {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+    margin: auto;
+}
+#offers .offer-cards h3{
+    font-size: 50px;
+    color: antiquewhite;
+}
+#offers .offer-cards p{
+    color: #e6c07a;
+    font-size: 35px;
+}
+#offers .offer-cards .card1,
+#offers .offer-cards .card2,
+#offers .offer-cards .card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#offers .offer-cards .price {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px; 
+    text-align: center; 
+}
+
+#offers .offer-cards .price s {
+    color: red; 
+    margin-right: 10px; 
+}
+/* تنسيقات قسم القائمة الخاصة */
+#menu {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    font-family: 'Verdana', sans-serif;
+}
+
+#menu .menu-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#menu .menu-header h2 {
+    font-size: 45px;
+    color: #4a4a59;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#menu .menu-header p {
+    font-size: 20px;
+    color: #b0b0b0;
+}
+
+#menu .menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#menu .menu-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 45%;
+}
+
+#menu .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#menu .menu-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#menu .item-info {
+    flex: 1;
+}
+
+#menu .title-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#menu .title-price h4 {
+    font-size: 20px;
+    color: #4a4a59;
+    font-weight: bold;
+}
+
+#menu .title-price .dots {
+    flex-grow: 1;
+    border-bottom: 2px dotted #d3d3d3;
+    margin: 0 15px;
+    position: relative;
+    top: -4px; /* لضبط النقط لتكون في المنتصف */
+}
+
+#menu .title-price .price {
+    font-size: 22px;
+    color: #fce300; /* لون أصفر مقارب للصورة */
+    font-weight: bold;
+}
+
+#menu .item-info p {
+    font-size: 16px;
+    color: #888888;
+    line-height: 1.5;
+}
+/* تنسيقات قسم التواصل */
+#contact {
+    padding: 100px 5%;
+    background-color: #fefbf5; /* لون خلفية ناعم جداً يناسب ألوان الطعام */
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    gap: 60px;
+    background: #ffffff;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.06); /* ظل ناعم يعطي عمق للتصميم */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* أنيميشن لحاوية الاتصال عند المرور بالماوس */
+.contact-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.1);
+}
+
+.contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.info-block h3 {
+    font-size: 35px;
+    color: #4a4a59;
+    margin-bottom: 25px;
+    position: relative;
+    display: inline-block;
+}
+
+/* خط برتقالي متحرك تحت العناوين */
+.info-block h3::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: -8px;
+    left: 0;
+    background-color: #e98d1d;
+    transition: width 0.4s ease;
+    border-radius: 2px;
+}
+
+.info-block:hover h3::after {
+    width: 100%;
+}
+
+.info-block p {
+    font-size: 18px;
+    color: #785427;
+    margin-bottom: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: default;
+}
+
+/* حركة بسيطة للنصوص عند المرور عليها */
+.info-block p:hover {
+    color: #e98d1d;
+    transform: translateX(10px);
+}
+
+.contact-form {
+    flex: 1;
+    width: 100%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-color: #f4f6f9;
+    font-size: 18px;
+    color: #333;
+    transition: all 0.3s ease;
+    font-family: 'Verdana', sans-serif;
+    resize: none; 
+}
+
+
+.input-group input:focus,
+.input-group textarea:focus {
+    outline: none;
+    background-color: #ffffff;
+    border-color: #e98d1d;
+    box-shadow: 0 5px 15px rgba(233, 141, 29, 0.15);
+    transform: scale(1.02);
+}
+
+.submit-btn {
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #fce300;
+    color: #4a4a59;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 20px rgba(252, 227, 0, 0.4);
+    margin-top: 10px;
+}
+
+
+.submit-btn:hover {
+    background-color: #e98d1d;
+    color: white;
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(233, 141, 29, 0.5);
+}
